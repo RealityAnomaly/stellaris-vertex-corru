@@ -1,0 +1,33 @@
+# Time, cost, upkeep and jobs for corru buildings
+@b0_vertex_corru_time = 180
+@b0_vertex_corru_cost = 200
+@b0_vertex_corru_upkeep = 1
+@b0_vertex_corru_jobs = 2
+
+@b1_vertex_corru_time = 360
+@b1_vertex_corru_cost = 400
+@b1_vertex_corru_upkeep = 2
+@b1_vertex_corru_jobs = 2
+@b1_vertex_corru_alloy_upkeep = 2
+
+@b2_vertex_corru_time = 480
+@b2_vertex_corru_cost = 600
+@b2_vertex_corru_upkeep = 5
+@b2_vertex_corru_rare_cost = 50
+@b2_vertex_corru_rare_upkeep = 1
+@b2_vertex_corru_jobs = 4
+@b2_vertex_corru_alloy_upkeep = 3
+
+@b3_vertex_corru_time = 600
+@b3_vertex_corru_cost = 800
+@b3_vertex_corru_upkeep = 8
+@b3_vertex_corru_rare_cost = 100
+@b3_vertex_corru_rare_upkeep = 2
+@b3_vertex_corru_jobs = 6
+@b3_vertex_corru_alloy_upkeep = 5
+
+@b4_vertex_corru_time = 900
+@b4_vertex_corru_cost = 2000
+@b4_vertex_corru_upkeep = 10
+@b4_vertex_corru_rare_cost = 200
+@b4_vertex_corru_rare_upkeep = 4

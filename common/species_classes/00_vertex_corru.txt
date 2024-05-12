@@ -1,0 +1,20 @@
+CORRUCYSTIC = {
+  archetype = LITHOID
+
+  possible = {
+		authority = {
+			NOT = {
+				value = auth_machine_intelligence
+				text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
+			}
+		}
+	}
+
+  trait = trait_vertex_corrucystic_construct
+  gender = yes
+  use_climate_preference = yes
+  portrait_modding = yes
+
+  graphical_culture = humanoid_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

@@ -1,0 +1,334 @@
+#############
+#	POWER	#
+#############
+
+@corvette_power_1 = 75
+@corvette_power_2 = 100
+@corvette_power_3 = 130
+@corvette_power_4 = 170
+@corvette_power_5 = 220
+@corvette_power_6 = 285
+
+@destroyer_power_1 = 140
+@destroyer_power_2 = 180
+@destroyer_power_3 = 240
+@destroyer_power_4 = 320
+@destroyer_power_5 = 430
+@destroyer_power_6 = 550
+
+@cruiser_power_1 = 280
+@cruiser_power_2 = 360
+@cruiser_power_3 = 480
+@cruiser_power_4 = 620
+@cruiser_power_5 = 800
+@cruiser_power_6 = 1030
+
+@battleship_power_1 = 550
+@battleship_power_2 = 720
+@battleship_power_3 = 950
+@battleship_power_4 = 1250
+@battleship_power_5 = 1550
+@battleship_power_6 = 2000
+
+@titan_power_1 = 1100
+@titan_power_2 = 1450
+@titan_power_3 = 1900
+@titan_power_4 = 2500
+@titan_power_5 = 3200
+@titan_power_6 = 4200
+
+# Unlike normal scaling, the base of these is 3.5×
+# the previous ship class instead of 2×.
+@juggernaut_power_1 = 3850
+@juggernaut_power_2 = 5000
+@juggernaut_power_3 = 6500
+@juggernaut_power_4 = 8460
+@juggernaut_power_5 = 11000
+@juggernaut_power_6 = 14300
+
+@colossus_power = 10000
+
+@starbase_power_1 = 1875
+@starbase_power_2 = 2500
+@starbase_power_3 = 3250
+@starbase_power_4 = 4250
+@starbase_power_5 = 5500
+@starbase_power_6 = 7125
+
+@platform_power_1 = 200
+@platform_power_2 = 260
+@platform_power_3 = 340
+@platform_power_4 = 440
+@platform_power_5 = 575
+@platform_power_6 = 750
+
+#############
+#	COST	#
+#############
+
+@corvette_cost_1 = 10
+@corvette_cost_2 = 13
+@corvette_cost_3 = 17
+@corvette_cost_4 = 22
+@corvette_cost_5 = 28
+@corvette_cost_6 = 37
+
+@destroyer_cost_1 = 20
+@destroyer_cost_2 = 26
+@destroyer_cost_3 = 34
+@destroyer_cost_4 = 44
+@destroyer_cost_5 = 56
+@destroyer_cost_6 = 74
+
+@cruiser_cost_1 = 40
+@cruiser_cost_2 = 52
+@cruiser_cost_3 = 68
+@cruiser_cost_4 = 88
+@cruiser_cost_5 = 112
+@cruiser_cost_6 = 148
+
+@battleship_cost_1 = 80
+@battleship_cost_2 = 104
+@battleship_cost_3 = 136
+@battleship_cost_4 = 176
+@battleship_cost_5 = 224
+@battleship_cost_6 = 296
+
+@titan_cost_1 = 160
+@titan_cost_2 = 208
+@titan_cost_3 = 272
+@titan_cost_4 = 352
+@titan_cost_5 = 448
+@titan_cost_6 = 592
+
+# Unlike normal scaling, the base of these is 3.5×
+# the previous ship class instead of 2×.
+@juggernaut_cost_1 = 560
+@juggernaut_cost_2 = 730
+@juggernaut_cost_3 = 950
+@juggernaut_cost_4 = 1230
+@juggernaut_cost_5 = 1600
+@juggernaut_cost_6 = 2080
+
+@colossus_cost_1 = 0
+
+@platform_cost_1 = 20
+@platform_cost_2 = 26
+@platform_cost_3 = 34
+@platform_cost_4 = 44
+@platform_cost_5 = 56
+@platform_cost_6 = 74
+
+utility_component_template = {
+	key = "VERTEX_CORRU_CORVETTE_DULL_HEART"
+	size = small
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @corvette_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @corvette_cost_1
+		}
+		upkeep = {
+			sr_vertex_sfer = 0.10
+		}
+	}
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	size_restriction = { vertex_corru_corvette vertex_corru_frigate vertex_corru_colonizer vertex_corru_constructor vertex_corru_science vertex_corru_transport }
+	#upgrades_to = "CORVETTE_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "VERTEX_CORRU_DESTROYER_DULL_HEART"
+	size = small
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @destroyer_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @destroyer_cost_1
+		}
+		upkeep = {
+			sr_vertex_sfer = 0.20
+		}
+	}
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	size_restriction = { vertex_corru_destroyer }
+	#upgrades_to = "DESTROYER_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "VERTEX_CORRU_CRUISER_DULL_HEART"
+	size = small
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @cruiser_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @cruiser_cost_1
+		}
+		upkeep = {
+			sr_vertex_sfer = 0.40
+		}
+	}
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	size_restriction = { vertex_corru_cruiser }
+	#upgrades_to = "CRUISER_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "VERTEX_CORRU_BATTLESHIP_DULL_HEART"
+	size = small
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @battleship_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @battleship_cost_1
+		}
+		upkeep = {
+			sr_vertex_sfer = 0.80
+		}
+	}
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	size_restriction = { vertex_corru_battleship }
+	#upgrades_to = "BATTLESHIP_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "VERTEX_CORRU_TITAN_DULL_HEART"
+	size = small
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @titan_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @titan_cost_1
+		}
+		upkeep = {
+			sr_vertex_sfer = 1.60
+		}
+	}
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	size_restriction = { vertex_corru_titan }
+	#upgrades_to = "TITAN_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "VERTEX_CORRU_JUGGERNAUT_DULL_HEART"
+	size = small
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @juggernaut_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @juggernaut_cost_1
+		}
+		upkeep = {
+			sr_vertex_sfer = 5.6
+		}
+	}
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	size_restriction = { vertex_corru_juggernaut vertex_corru_star_eater }
+	#upgrades_to = "JUGGERNAUT_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "VERTEX_CORRU_PLATFORM_DULL_HEART"
+	size = large
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @platform_power_1
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @platform_cost_1
+		}
+		upkeep = {
+			sr_vertex_sfer = 0.20
+		}
+	}
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	class_restriction = { shipclass_military_station }
+	size_restriction = {
+		vertex_corru_military_station_small
+		vertex_corru_military_station_medium
+		vertex_corru_military_station_large
+	}
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	#upgrades_to = "PLATFORM_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "VERTEX_CORRU_STARBASE_DULL_HEART"
+	size = large
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+	power = @starbase_power_1
+
+	prerequisites = { "tech_vertex_dull_hearts" }
+	class_restriction = { shipclass_starbase }
+	component_set = "VERTEX_CORRU_DULL_HEART"
+	size_restriction = {
+		vertex_corru_starbase_outpost
+		vertex_corru_starbase_starport
+		vertex_corru_starbase_starhold
+		vertex_corru_starbase_starfortress
+		vertex_corru_starbase_citadel
+		orbital_ring_tier_1
+		orbital_ring_tier_2
+		orbital_ring_tier_3
+	}
+	#upgrades_to = "STARBASE_FUSION_REACTOR"
+
+	ai_weight = {
+		weight = 1
+	}
+}

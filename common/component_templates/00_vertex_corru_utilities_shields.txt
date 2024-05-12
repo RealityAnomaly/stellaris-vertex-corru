@@ -1,0 +1,110 @@
+utility_component_template = {
+	key = "SMALL_VERTEX_CORRU_DULL_BARRIER"
+
+	size = small
+	icon = "GFX_ship_part_vertex_corru_dull_barrier"
+	icon_frame = 1
+
+	component_set = "VERTEX_CORRU_DULL_BARRIER"
+	#upgrades_to = "SMALL_SHIELD_2"
+
+  power = @power_S1
+
+  modifier = {
+		ship_shield_add = @shield_S1
+		ship_shield_regen_add_static = @regen_S1 #Regeneration per day
+	}
+
+  prerequisites = { "tech_vertex_the_dull" }
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @vertex_corru_shield_s_t1_cost
+		}
+		upkeep = {
+			sr_vertex_sfer = @vertex_corru_shield_s_t1_upkeep
+		}
+	}
+
+	ai_weight = {
+		weight = @T1_weight
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 0
+		}
+	}
+}
+
+utility_component_template = {
+	key = "MEDIUM_VERTEX_CORRU_DULL_BARRIER"
+
+	size = medium
+	icon = "GFX_ship_part_vertex_corru_dull_barrier"
+	icon_frame = 1
+
+  component_set = "VERTEX_CORRU_DULL_BARRIER"
+	#upgrades_to = "MEDIUM_SHIELD_2"
+
+  power = @power_M1
+
+  modifier = {
+		ship_shield_add = @shield_M1
+		ship_shield_regen_add_static = @regen_M1 #Regeneration per day
+	}
+
+  prerequisites = { "tech_vertex_the_dull" }
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @vertex_corru_shield_m_t1_cost
+		}
+		upkeep = {
+			sr_vertex_sfer = @vertex_corru_shield_m_t1_upkeep
+		}
+	}
+
+	ai_weight = {
+		weight = @T1_weight
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 0
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_VERTEX_CORRU_DULL_BARRIER"
+
+	size = large
+	icon = "GFX_ship_part_vertex_corru_dull_barrier"
+	icon_frame = 1
+
+  component_set = "VERTEX_CORRU_DULL_BARRIER"
+	#upgrades_to = "LARGE_SHIELD_2"
+
+  power = @power_L1
+
+  modifier = {
+		ship_shield_add = @shield_L1
+		ship_shield_regen_add_static = @regen_L1 #Regeneration per day
+	}
+
+  prerequisites = { "tech_vertex_the_dull" }
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @vertex_corru_shield_l_t1_cost
+		}
+		upkeep = {
+			sr_vertex_sfer = @vertex_corru_shield_l_t1_upkeep
+		}
+	}
+
+	ai_weight = {
+		weight = @T1_weight
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 0
+		}
+	}
+}

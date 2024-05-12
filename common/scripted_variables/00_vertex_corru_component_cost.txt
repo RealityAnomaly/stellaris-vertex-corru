@@ -1,0 +1,124 @@
+# Small
+@s_vertex_corru_t1_cost = 10
+@s_vertex_corru_t2_cost = 13
+@s_vertex_corru_t3_cost = 17
+@s_vertex_corru_t4_cost = 17
+@s_vertex_corru_t5_cost = 22
+@s_vertex_corru_t6_cost = 29
+@s_vertex_corru_t7_cost = 38
+
+@s_vertex_corru_t1_upkeep = 0.10
+@s_vertex_corru_t2_upkeep = 0.13
+@s_vertex_corru_t3_upkeep = 0.17
+@s_vertex_corru_t4_upkeep = 0.17
+@s_vertex_corru_t5_upkeep = 0.22
+@s_vertex_corru_t6_upkeep = 0.29
+@s_vertex_corru_t7_upkeep = 0.38
+
+# Medium
+@m_vertex_corru_t1_cost = 20
+@m_vertex_corru_t2_cost = 26
+@m_vertex_corru_t3_cost = 34
+@m_vertex_corru_t4_cost = 34
+@m_vertex_corru_t5_cost = 44
+@m_vertex_corru_t6_cost = 57
+@m_vertex_corru_t7_cost = 74
+
+@m_vertex_corru_t1_upkeep = 0.20
+@m_vertex_corru_t2_upkeep = 0.26
+@m_vertex_corru_t3_upkeep = 0.34
+@m_vertex_corru_t4_upkeep = 0.34
+@m_vertex_corru_t5_upkeep = 0.44
+@m_vertex_corru_t6_upkeep = 0.57
+@m_vertex_corru_t7_upkeep = 0.74
+
+# Large
+@l_vertex_corru_t1_cost = 40
+@l_vertex_corru_t2_cost = 52
+@l_vertex_corru_t3_cost = 68
+@l_vertex_corru_t4_cost = 68
+@l_vertex_corru_t5_cost = 88
+@l_vertex_corru_t6_cost = 114
+@l_vertex_corru_t7_cost = 148
+
+@l_vertex_corru_t1_upkeep = 0.40
+@l_vertex_corru_t2_upkeep = 0.52
+@l_vertex_corru_t3_upkeep = 0.68
+@l_vertex_corru_t4_upkeep = 0.68
+@l_vertex_corru_t5_upkeep = 0.88
+@l_vertex_corru_t6_upkeep = 1.14
+@l_vertex_corru_t7_upkeep = 1.48
+
+# Extra Large
+@xl_vertex_corru_t5_cost = 176
+@xl_vertex_corru_t6_cost = 229
+@xl_vertex_corru_t7_cost = 298
+
+@xl_vertex_corru_t5_upkeep = 1.76
+@xl_vertex_corru_t6_upkeep = 2.29
+@xl_vertex_corru_t7_upkeep = 2.98
+
+# Titanic
+@titanic_vertex_corru_t6_cost = 456
+@titanic_vertex_corru_t7_cost = 593
+
+@titanic_vertex_corru_t6_upkeep = 4.56
+@titanic_vertex_corru_t7_upkeep = 5.93
+
+#################
+# SHIELDS
+#################
+
+# Small
+
+@vertex_corru_shield_s_t1_cost = 5
+@vertex_corru_shield_s_t2_cost = 7
+@vertex_corru_shield_s_t3_cost = 9
+@vertex_corru_shield_s_t4_cost = 9 #not 12, uses rare goods instead
+@vertex_corru_shield_s_t5_cost = 12 #16
+@vertex_corru_shield_s_t6_cost = 16 #21
+@vertex_corru_shield_s_t7_cost = 21 #27
+
+@vertex_corru_shield_s_t1_upkeep = 0.05
+@vertex_corru_shield_s_t2_upkeep = 0.07
+@vertex_corru_shield_s_t3_upkeep = 0.09
+@vertex_corru_shield_s_t4_upkeep = 0.09
+@vertex_corru_shield_s_t5_upkeep = 0.12
+@vertex_corru_shield_s_t6_upkeep = 0.16
+@vertex_corru_shield_s_t7_upkeep = 0.21
+
+# Medium
+
+@vertex_corru_shield_m_t1_cost = 10
+@vertex_corru_shield_m_t2_cost = 13
+@vertex_corru_shield_m_t3_cost = 17
+@vertex_corru_shield_m_t4_cost = 17 #not 22, uses rare goods instead
+@vertex_corru_shield_m_t5_cost = 22
+@vertex_corru_shield_m_t6_cost = 29
+@vertex_corru_shield_m_t7_cost = 38
+
+@vertex_corru_shield_m_t1_upkeep = 0.10
+@vertex_corru_shield_m_t2_upkeep = 0.13
+@vertex_corru_shield_m_t3_upkeep = 0.17
+@vertex_corru_shield_m_t4_upkeep = 0.17
+@vertex_corru_shield_m_t5_upkeep = 0.22
+@vertex_corru_shield_m_t6_upkeep = 0.29
+@vertex_corru_shield_m_t7_upkeep = 0.38
+
+# Large
+
+@vertex_corru_shield_l_t1_cost = 20
+@vertex_corru_shield_l_t2_cost = 26
+@vertex_corru_shield_l_t3_cost = 34
+@vertex_corru_shield_l_t4_cost = 34 #not 34, uses rare goods instead
+@vertex_corru_shield_l_t5_cost = 44
+@vertex_corru_shield_l_t6_cost = 57
+@vertex_corru_shield_l_t7_cost = 74
+
+@vertex_corru_shield_l_t1_upkeep = 0.20
+@vertex_corru_shield_l_t2_upkeep = 0.26
+@vertex_corru_shield_l_t3_upkeep = 0.34
+@vertex_corru_shield_l_t4_upkeep = 0.34
+@vertex_corru_shield_l_t5_upkeep = 0.44
+@vertex_corru_shield_l_t6_upkeep = 0.57
+@vertex_corru_shield_l_t7_upkeep = 0.74

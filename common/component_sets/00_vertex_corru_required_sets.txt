@@ -1,0 +1,39 @@
+component_set = {
+	key = "VERTEX_CORRU_DULL_HEART"
+
+  required_component_set = yes
+	icon = "GFX_ship_part_vertex_corru_dull_heart"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VERTEX_CORRU_DULL_HEART_DRIVE"
+
+  required_component_set = yes
+	icon = "GFX_ship_part_vertex_corru_dull_heart_drive"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VERTEX_CORRU_DULL_HEART_THRUSTER"
+
+  required_component_set = yes
+	icon = "GFX_ship_part_vertex_corru_dull_heart_thruster"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VERTEX_CORRU_CYSTIC_SENSOR"
+
+  required_component_set = yes
+	icon = "GFX_ship_part_vertex_corru_dull_heart_thruster"
+	icon_frame = 1
+}
+
+component_set = {
+  key = "VERTEX_CORRU_COMPUTER_GOLEM"
+
+  required_component_set = yes
+  icon = "GFX_ship_part_computer_vertex_corru_golem"
+  icon_frame = 1
+}

@@ -1,0 +1,101 @@
+utility_component_template = {
+	key = "SMALL_VERTEX_CORRU_CYSTIC_ARMOR"
+	size = small
+	icon = "GFX_ship_part_vertex_corru_cystic_armour"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_S1
+    ship_hull_regen_add_perc = 0.05
+		ship_armor_regen_add_perc = 0.1
+	}
+
+	prerequisites = { "tech_vertex_groundsmindry" }
+	component_set = "VERTEX_CORRU_CYSTIC_ARMOR"
+	#upgrades_to = "SMALL_ARMOR_2"
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @s_vertex_corru_t1_cost
+		}
+		upkeep = {
+			sr_vertex_sfer = @s_vertex_corru_t1_upkeep
+		}
+	}
+
+	ai_weight = {
+		weight = @T1_weight
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 2
+		}
+	}
+}
+
+utility_component_template = {
+	key = "MEDIUM_ARMOR_1"
+	size = medium
+	icon = "GFX_ship_part_vertex_corru_cystic_armour"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_M1
+    ship_hull_regen_add_perc = 0.05
+		ship_armor_regen_add_perc = 0.1
+	}
+
+	prerequisites = { "tech_vertex_groundsmindry" }
+	component_set = "VERTEX_CORRU_CYSTIC_ARMOR"
+	#upgrades_to = "MEDIUM_ARMOR_2"
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @m_vertex_corru_t1_cost
+		}
+		upkeep = {
+			sr_vertex_sfer = @m_vertex_corru_t1_upkeep
+		}
+	}
+
+	ai_weight = {
+		weight = @T1_weight
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 2
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_ARMOR_1"
+	size = large
+	icon = "GFX_ship_part_vertex_corru_cystic_armour"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_L1
+    ship_hull_regen_add_perc = 0.05
+		ship_armor_regen_add_perc = 0.1
+	}
+
+	prerequisites = { "tech_vertex_groundsmindry" }
+	component_set = "VERTEX_CORRU_CYSTIC_ARMOR"
+	#upgrades_to = "LARGE_ARMOR_2"
+	resources = {
+		category = ship_components
+		cost = {
+			sr_vertex_corru = @l_vertex_corru_t1_cost
+		}
+		upkeep = {
+			sr_vertex_sfer = @l_vertex_corru_t1_upkeep
+		}
+	}
+
+	ai_weight = {
+		weight = @T1_weight
+		inline_script = {
+			script = ship_components/weights/roles_stealth
+			MULT = 2
+		}
+	}
+}

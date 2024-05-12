@@ -1,0 +1,27 @@
+﻿l_english:
+ name_list_OBESK:0 "Obesk"
+
+ me_Obesk:0 "Obeski"
+ SPEC_Obesk:0 "Obesk"
+ SPEC_Obesk_pl:0 "Obesk"
+ SPEC_Obesk_planet:0 "Obeski"
+ SPEC_Obesk_system:0 "Obeski"
+
+ EMPIRE_DESIGN_obesk:0 "The Obeski"
+ EMPIRE_DESIGN_obesk_desc:0 "placeholder hehe"
+ PRESCRIPTED_adjective_obesk:0 "Obesk"
+ PRESCRIPTED_ship_prefix_obesk:0 "OBE"
+ PRESCRIPTED_planet_name_obesk:0 "Obeski"
+ PRESCRIPTED_system_name_obesk:0 "Obeski"
+ PRESCRIPTED_ruler_name_obesk:0 "Gakvu"
+ PRESCRIPTED_ruler_title_obesk:0 "Prime Minister"
+ PRESCRIPTED_species_name_obesk:0 "Obesk"
+ PRESCRIPTED_species_plural_obesk:0 "Obesk"
+ PRESCRIPTED_species_adjective_obesk:0 "Obesk $1$"
+
+ PRESCRIPTED_species_name_corru_golem:0 "Golem"
+ PRESCRIPTED_species_plural_corru_golem:0 "Golems"
+ PRESCRIPTED_species_adjective_corru_golem:0 "Golem $1$"
+
+ PRESCRIPTED_ruler_bio_obesk:0 "Placeholder"
+ START_SCREEN_PART_TWO_OBESK:0 "Placeholder"

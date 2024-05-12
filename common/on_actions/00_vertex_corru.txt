@@ -1,0 +1,11 @@
+empire_init_capital_planet = {
+	events = {
+		vertex_corru_events.40
+	}	
+}
+
+on_game_start = {
+  events = {
+    vertex_corru_events.80
+  }
+}

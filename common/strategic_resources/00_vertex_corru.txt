@@ -1,0 +1,43 @@
+# living biological metal, used for structures and growing pops
+sr_vertex_corru = {
+	tradable = no
+	category = rare
+	max = 100000
+
+	#prerequisites = { "tech_mine_dark_matter" }
+	visibility_prerequisite = {
+		has_country_flag = vertex_country_obeski
+	}
+
+	#deficit_modifier = dark_matter_deficit #found in static modifiers
+
+	ai_weight = {
+		weight = 100
+	}
+
+	ai_wants = {
+		base = 5
+	}
+}
+
+# currency and fuel, is used to make corru
+sr_vertex_sfer = {
+	tradable = no
+	category = rare
+	max = 100000000
+
+	#prerequisites = { "tech_mine_dark_matter" }
+	visibility_prerequisite = {
+		has_country_flag = vertex_country_obeski
+	}
+
+	#deficit_modifier = dark_matter_deficit #found in static modifiers
+
+	ai_weight = {
+		weight = 100
+	}
+
+	ai_wants = {
+		base = 5
+	}
+}

@@ -1,0 +1,36 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_vertex_corru_dull_barrier"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_vertex_corru_dull_barrier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_vertex_corru_dull_heart"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_vertex_corru_dull_heart.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_vertex_corru_dull_heart_drive"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_vertex_corru_dull_heart_drive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_vertex_corru_dull_heart_thruster"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_vertex_corru_dull_heart_thruster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_vertex_corru_dull_pulse_beam"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_vertex_corru_dull_pulse_beam.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_vertex_corru_cystic_armour"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_vertex_corru_cystic_armour.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_computer_vertex_corru_golem"
+		texturefile = "gfx/interface/icons/ship_parts/computers/ship_part_computer_vertex_corru_golem.dds"
+	}
+}

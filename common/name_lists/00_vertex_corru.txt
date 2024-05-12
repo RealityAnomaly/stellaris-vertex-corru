@@ -1,0 +1,192 @@
+﻿OBESK = {
+	category = "Mammalian"
+	ship_names = {
+		generic = {
+			MAM3_SHIP_SeperElegion MAM3_SHIP_SeperSetnassel MAM3_SHIP_SeperHundramel MAM3_SHIP_SeperGrenalion MAM3_SHIP_SeperFundroleth MAM3_SHIP_SeperSagredioth MAM3_SHIP_SeperCurenrod MAM3_SHIP_SeperTulethendral MAM3_SHIP_SeperHuvendrog MAM3_SHIP_SeperVyliged MAM3_SHIP_SeperTarudog MAM3_SHIP_SeperCalendol MAM3_SHIP_SeperEssunad MAM3_SHIP_SeperHugaderol MAM3_SHIP_SeperAldinor MAM3_SHIP_SeperCerunthon MAM3_SHIP_SeperMassagreth MAM3_SHIP_SeperTuandok MAM3_SHIP_SeperNossundem MAM3_SHIP_SeperDuacedron MAM3_SHIP_SeperKarob MAM3_SHIP_SeperArogo MAM3_SHIP_SeperVaylor MAM3_SHIP_SeperTirb MAM3_SHIP_SeperEskag MAM3_SHIP_SeperBorog MAM3_SHIP_SeperMasol MAM3_SHIP_VukiTarg MAM3_SHIP_VukiBoron MAM3_SHIP_VukiSalpossa MAM3_SHIP_VukiPatora MAM3_SHIP_VukiArgas MAM3_SHIP_VukiHolagor MAM3_SHIP_VukiSpako MAM3_SHIP_VukiRaman MAM3_SHIP_VukiSotra MAM3_SHIP_VukiVado MAM3_SHIP_VukiUram MAM3_SHIP_VukiElagar MAM3_SHIP_VukiEnnak MAM3_SHIP_VukiTarba MAM3_SHIP_VukiIrios MAM3_SHIP_VukiSatrak MAM3_SHIP_VukiEndur MAM3_SHIP_VukiUlator MAM3_SHIP_VukiSpaddok MAM3_SHIP_VukiKitnak MAM3_SHIP_VukiPokra MAM3_SHIP_VukiHigran MAM3_SHIP_VukiFarab MAM3_SHIP_VukiStorg
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		titan = {
+		}
+
+		colossus = {
+		}
+
+		science = {
+			# should be for the science ship *class*
+			OBESK_SHIP_Dull_Vessel
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		transport = {
+		}
+
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			MAM3_FLEET_AssaultCorps MAM3_FLEET_FirstOrderCorps MAM3_FLEET_StrikeCorps MAM3_FLEET_StellarCorps MAM3_FLEET_ExoCorps MAM3_FLEET_VoidCorps MAM3_FLEET_AetherCorps MAM3_FLEET_HorizonCorps MAM3_FLEET_BattleCorps MAM3_FLEET_GalacticCorps MAM3_FLEET_AstralCorps
+		}
+		sequential_name = MAM3_EXTRAORBITALCORPS
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = MAM3_DEFENSEARMY
+		}
+
+		machine_assault_1 = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		machine_assault_2 = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		machine_assault_3 = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		defense_army = {
+			sequential_name = MAM3_DEFENSEARMY
+		}
+
+		assault_army = {
+			sequential_name = MAM3_ASSAULTARMY
+		}
+
+		slave_army = {
+			sequential_name = MAM3_SLAVEARMY
+		}
+
+		clone_army = {
+			sequential_name = MAM3_CLONEDIVISION
+		}
+
+		undead_army = {
+			sequential_name = MAM3_DREADDIVISION
+		}
+
+		robotic_army = {
+			sequential_name = MAM3_ROBOTDIVISION
+		}
+
+		robotic_defense_army = {
+			sequential_name = MAM3_ROBOTGARRISON
+		}
+
+		psionic_army = {
+			sequential_name = MAM3_PSIONICARMY
+		}
+
+		xenomorph_army = {
+			sequential_name = MAM3_XENOMORPHDIVISION
+		}
+
+		gene_warrior_army = {
+			sequential_name = MAM3_GENEWARRIORDIVISION
+		}
+
+		occupation_army = {
+			sequential_name = MAM3_OCCUPATIONARMY
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MAM3_OCCUPATIONROBOTARMY
+		}
+
+		primitive_army = {
+			sequential_name = MAM3_PRIMITIVEARMY
+		}
+		industrial_army = {
+			sequential_name = MAM3_INDUSTRIALARMY
+		}
+		postatomic_army = {
+			sequential_name = MAM3_POSTATOMICARMY
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				OBESK_PLANET_Relmaz OBESK_PLANET_Belzun OBESK_PLANET_Ekima OBESK_PLANET_Azovik OBESK_PLANET_Vilkuz OBESK_PLANET_Zekava OBESK_PLANET_Okovin OBESK_PLANET_Nezova OBESK_PLANET_Yevika OBESK_PLANET_Uzivak OBESK_PLANET_Kalizu OBESK_PLANET_Zoniki OBESK_PLANET_Ruvika OBESK_PLANET_Tekuno OBESK_PLANET_Azivon OBESK_PLANET_Salkiz OBESK_PLANET_Zelaki OBESK_PLANET_Vuzkin OBESK_PLANET_Akozin OBESK_PLANET_Neluki
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+	}
+
+	character_names = {
+		default = {
+			full_names = {
+				OBESK_CHR_Azlik OBESK_CHR_Brizvo OBESK_CHR_Cakto OBESK_CHR_Dovik OBESK_CHR_Ekzil OBESK_CHR_Folvik OBESK_CHR_Gazmo OBESK_CHR_Hizka OBESK_CHR_Ilzor OBESK_CHR_Jovik OBESK_CHR_Krazik OBESK_CHR_Luvik OBESK_CHR_Mazik OBESK_CHR_Nizka OBESK_CHR_Orvik OBESK_CHR_Pizlo OBESK_CHR_Qozka OBESK_CHR_Rilkov OBESK_CHR_Sovik OBESK_CHR_Tazlo
+			}
+		}
+	}
+}

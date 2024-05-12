@@ -1,0 +1,38 @@
+namespace = vertex_corru_events
+
+# empire_init_capital_planet
+planet_event = {
+	id = vertex_corru_events.40
+	hide_window = yes
+	is_triggered_only = yes
+
+	# set special_start_planet
+	immediate = {
+		if = {
+			limit = {	owner = { has_country_flag = vertex_country_obeski } }
+
+			#generate_start_deposits_and_blockers = yes
+			#generate_start_buildings_and_districts = yes
+
+			# we init pops ourselves
+			vertex_effect_obesk_init_capital = yes
+
+			# run the final pass
+			generate_home_planet_final_pass = yes
+		}
+	}
+}
+
+# on_game_start
+event = {
+  id = vertex_corru_events.80
+	is_triggered_only = yes
+  hide_window = yes
+
+	immediate = {
+		every_playable_country = {
+			limit = { has_country_flag = vertex_country_obeski }
+			vertex_effect_obesk_game_start = yes
+		}
+	}
+}

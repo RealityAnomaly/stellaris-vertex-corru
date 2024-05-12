@@ -1,0 +1,15 @@
+vertex_corru_obesk_qou = {
+  species_class = CORRUCYSTIC
+
+  portraits = {
+    "vertex_corru_obesk_qou"
+  }
+}
+
+vertex_corru_obesk_golem = {
+  species_class = CORRUCYSTIC
+
+  portraits = {
+    "vertex_corru_obesk_golem"
+  }
+}

@@ -1,0 +1,87 @@
+vertex_corru_obeski = {
+  name = "EMPIRE_DESIGN_obesk"
+  adjective = "PRESCRIPTED_adjective_obesk"
+
+  spawn_enabled = no
+  spawn_as_fallen = no
+  ignore_portrait_duplication = no
+
+  ship_prefix = "PRESCRIPTED_ship_prefix_obesk"
+
+  species = {
+    class = "CORRUCYSTIC"
+    portrait = "vertex_corru_obesk_qou"
+    name = "PRESCRIPTED_species_name_obesk"
+    plural = "PRESCRIPTED_species_plural_obesk"
+    adjective = "PRESCRIPTED_species_adjective_obesk"
+    name_list = "OBESK"
+    gender = indeterminable
+    trait = "trait_vertex_corrucystic_construct"
+    trait = "trait_communal"
+    trait = "trait_conservational"
+  }
+
+  secondary_species = {
+    class = "CORRUCYSTIC"
+    portrait = "vertex_corru_obesk_golem"
+    name = "PRESCRIPTED_species_name_corru_golem"
+    plural = "PRESCRIPTED_species_plural_corru_golem"
+    adjective = "PRESCRIPTED_species_adjective_corru_golem"
+    name_list = "OBESK" # cannot produce leaders anyway?
+    gender = indeterminable
+    trait = "trait_vertex_corrucystic_construct"
+  }
+
+  room = "obesk_room"
+
+  ethic = "ethic_xenophile"
+  ethic = "ethic_pacifist"
+  ethic = "ethic_materialist"
+  authority = "auth_democratic"
+  government = "gov_moral_democracy"
+  civics = { "civic_technocracy" } # civic_eager_explorers
+  origin = "origin_vertex_corrucystic_revolution"
+
+  flags = { vertex_country_obeski }
+
+  system_name = "PRESCRIPTED_system_name_obesk"
+  planet_name = "PRESCRIPTED_planet_name_obesk"
+  planet_class = "pc_continental"
+  initializer = "obeski_system_initializer"
+
+  graphical_culture = "machine_01"
+	city_graphical_culture = "necroid_01"
+
+  empire_flag = {
+		icon = {
+			category = "obesk"
+			file = "obesk_01.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_corru.dds"
+		}
+		colors = {
+			"vertex_corru_background"
+			"vertex_corru_foreground"
+			"null"
+			"null"
+		}
+	}
+
+  ruler = {
+    name = "PRESCRIPTED_ruler_name_obesk"
+		ruler_title = "PRESCRIPTED_ruler_title_obesk"
+
+		gender = female
+		portrait = "vertex_corru_obesk_gakvu"
+		texture = 0
+		attachment = 0
+		clothes = 0
+
+		custom_biography = "PRESCRIPTED_ruler_bio_obesk"
+
+ 		trait = "leader_trait_spark_of_genius"
+		leader_class = scientist
+  }
+}

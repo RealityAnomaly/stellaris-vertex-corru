@@ -1,0 +1,26 @@
+d_vertex_natural_corru = {
+  is_for_colonizable = no
+  use_for_min_max_adjustments = yes
+
+  category = deposit_cat_rare_resource
+  
+  potential = {
+    always = no
+  }
+
+  resources = {
+    category = planet_deposits
+    produces = {
+      trigger = {
+        exists = owner
+        owner = { has_origin = origin_vertex_corrucystic_revolution }
+      }
+      sr_vertex_corru = 2
+      sr_vertex_sfer = 10
+    }
+  }
+
+  drop_weight = {
+    weight = 0
+  }
+}

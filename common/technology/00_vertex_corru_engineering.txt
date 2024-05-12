@@ -1,0 +1,67 @@
+# corrucystic technology
+tech_vertex_corrucystic_technology = {
+  area = engineering
+  tier = 0
+  category = { materials }
+  prerequisites = { "tech_vertex_corru_biology" }
+  start_tech = yes
+
+  potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+
+  starting_potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+}
+
+# groundsmindry
+tech_vertex_groundsmindry = {
+  area = engineering
+  tier = 0
+  category = { industry }
+  prerequisites = { "tech_vertex_corru_biology" }
+  start_tech = yes
+
+  potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+
+  starting_potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+}
+
+# dull vessels (basic ships)
+tech_vertex_dull_vessels = {
+  area = engineering
+  tier = 0
+  category = { voidcraft }
+  prerequisites = { "tech_vertex_corrucystic_technology" "tech_vertex_the_dull" }
+  start_tech = yes
+
+  potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+
+  starting_potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+}
+
+# dull heart (dull vessel power and locomotion: thrusters)
+tech_vertex_dull_hearts = {
+  area = engineering
+  tier = 0
+  category = { propulsion }
+  prerequisites = { "tech_vertex_dull_vessels" }
+  start_tech = yes
+
+  potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+
+  starting_potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+}

@@ -1,0 +1,25 @@
+origin_vertex_corrucystic_revolution = {
+  is_origin = yes
+  icon = "gfx/interface/icons/origins/origins_resource_consolidation.dds"
+  picture = GFX_origin_resource_consolidation
+  max_once_global = yes
+  advanced_start = yes
+
+  description = "origin_tooltip_corrucystic_revolution_effects"
+  negative_description = "origin_tooltip_corrucystic_revolution_negative_effects"
+  flags = {
+    vertex_is_low_tech_start
+    vertex_is_fully_custom_empire
+    vertex_is_fully_custom_empire_tech_locked
+  }
+
+  has_secondary_species = {
+    title = PRESCRIPTED_species_name_corru_golem
+    traits = {
+      trait = trait_vertex_corrucystic_construct
+    }
+  }
+
+  random_weight = { base = 0 }
+  ai_weight = { base = 0 }
+}

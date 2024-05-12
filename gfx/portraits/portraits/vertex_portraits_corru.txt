@@ -1,0 +1,249 @@
+portraits = {
+	vertex_corru_obesk_akizet = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_akizet.dds"
+	}
+
+	vertex_corru_obesk_bozko = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_bozko.dds"
+	}
+
+	vertex_corru_obesk_cavik = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_cavik.dds"
+	}
+
+	vertex_corru_obesk_kazki = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_kazki.dds"
+	}
+
+	vertex_corru_obesk_tozik = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_tozik.dds"
+	}
+
+	vertex_corru_obesk_gakvu = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_gakvu.dds"
+	}
+
+	vertex_corru_obesk_miltza = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_miltza.dds"
+	}
+
+	vertex_corru_obesk_ik_golem = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_ik_golem.dds"
+	}
+
+	vertex_corru_obesk_golem_geli = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_golem_geli.dds"
+	}
+
+	vertex_corru_obesk_golem_attendant = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_golem_attendant.dds"
+	}
+
+	vertex_corru_obesk_golem_boss = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_golem_boss.dds"
+	}
+
+	vertex_corru_obesk_golem_misc1 = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_golem_misc1.dds"
+	}
+
+	vertex_corru_obesk_golem_misc2 = {
+		greeting_sound = "arthropoid_01_greetings"
+		texturefile = "gfx/models/portraits/obesk_golem_misc2.dds"
+	}
+}
+
+portrait_groups = {
+	vertex_corru_obesk_qou = {
+		default = vertex_corru_obesk_gakvu
+
+		game_setup = {
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					vertex_corru_obesk_bozko
+					vertex_corru_obesk_cavik
+					vertex_corru_obesk_tozik
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					vertex_corru_obesk_akizet
+					vertex_corru_obesk_kazki
+					vertex_corru_obesk_gakvu
+					vertex_corru_obesk_miltza
+				}
+			}
+		}
+
+		species = {
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					vertex_corru_obesk_bozko
+					vertex_corru_obesk_cavik
+					vertex_corru_obesk_tozik
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					vertex_corru_obesk_akizet
+					vertex_corru_obesk_kazki
+					vertex_corru_obesk_gakvu
+					vertex_corru_obesk_miltza
+				}
+			}
+		}
+
+		pop = {
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					vertex_corru_obesk_bozko
+					vertex_corru_obesk_cavik
+					vertex_corru_obesk_tozik
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					vertex_corru_obesk_akizet
+					vertex_corru_obesk_kazki
+					vertex_corru_obesk_gakvu
+					vertex_corru_obesk_miltza
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					vertex_corru_obesk_bozko
+					vertex_corru_obesk_cavik
+					vertex_corru_obesk_tozik
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					vertex_corru_obesk_akizet
+					vertex_corru_obesk_kazki
+					vertex_corru_obesk_gakvu
+					vertex_corru_obesk_miltza
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					vertex_corru_obesk_bozko
+					vertex_corru_obesk_cavik
+					vertex_corru_obesk_tozik
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					vertex_corru_obesk_akizet
+					vertex_corru_obesk_kazki
+					vertex_corru_obesk_gakvu
+					vertex_corru_obesk_miltza
+				}
+			}
+		}
+	}
+
+	vertex_corru_obesk_golem = {
+		default = vertex_corru_obesk_golem_geli
+
+		game_setup = {
+			add = { portraits = { vertex_corru_obesk_golem_geli } }
+		}
+
+		species = {
+			add = { portraits = { vertex_corru_obesk_golem_geli } }
+		}
+
+		pop = {
+			add = {
+				portraits = {
+					"vertex_corru_obesk_golem_attendant"
+					"vertex_corru_obesk_golem_boss"
+					"vertex_corru_obesk_golem_misc1"
+					"vertex_corru_obesk_golem_misc2"
+				}
+			}
+		}
+
+		leader = {
+			add = { portraits = { vertex_corru_obesk_golem_geli } }
+		}
+
+		ruler = {
+			add = { portraits = { vertex_corru_obesk_golem_geli } }
+		}
+	}
+}

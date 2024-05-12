@@ -1,0 +1,33 @@
+# the dull
+tech_vertex_the_dull = {
+  area = physics
+  tier = 0
+  is_rare = yes
+  category = { field_manipulation }
+  start_tech = yes
+
+  potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+
+  starting_potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+}
+
+# dull pulse weaponry (energy weapon)
+tech_vertex_dull_pulse_weaponry = {
+  area = physics
+  tier = 0
+  category = { particles }
+  prerequisites = { "tech_vertex_the_dull" }
+  start_tech = yes
+
+  potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+
+  starting_potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+}

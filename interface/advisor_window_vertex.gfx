@@ -1,0 +1,9 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_vertex_funfriend"
+		textureFile = "gfx/interface/advisor/vertex_funfriend.dds"
+		#effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		#alwaysTransparent = no
+		#transParencecheck = no
+	}
+}

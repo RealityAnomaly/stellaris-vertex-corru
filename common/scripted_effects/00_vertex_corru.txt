@@ -1,0 +1,93 @@
+vertex_effect_obesk_game_start = {
+  # this is excluded by is_low_tech_start, so need to add it back in
+  give_technology = {
+    tech = tech_corvettes
+    message = no
+  }
+}
+
+vertex_effect_obesk_init_capital = {
+  # set up flags for the main species
+  owner_main_species = {
+    set_species_flag = can_organic_assemble_flag
+    set_species_flag = vertex_species_prohibits_worker_job
+    set_species_flag = vertex_species_can_be_assembled
+    set_species_flag = vertex_species_cannot_be_necrophaged
+    set_species_flag = vertex_species_prohibits_procreation
+  }
+
+  # set up the corru golem species
+  last_created_species = {
+    set_species_flag = can_organic_assemble_flag
+    set_species_flag = vertex_species_corru_golem
+    set_species_flag = vertex_species_prohibits_specialist_job
+    set_species_flag = vertex_species_can_be_assembled
+    set_species_flag = vertex_species_cannot_be_necrophaged
+    set_species_flag = vertex_species_prohibits_procreation
+    save_global_event_target_as = global_vertex_species_corru_golem
+
+    set_citizenship_type = {
+      country = root.owner
+      type = citizenship_full
+    }
+  }
+
+  # generate the pops
+  while = {
+    count = 10
+    create_pop = { species = owner_main_species }
+  }
+
+  while = {
+    count = 17
+    create_pop = { species = event_target:global_vertex_species_corru_golem }
+  }
+
+  # add districts
+  while = {
+    count = 3
+    add_district_and_planet_size_if_needed_effect = {
+      district = district_city
+    }
+  }
+
+  # food for non-corru pops
+  while = {
+    count = 2
+    add_district_and_planet_size_if_needed_effect = {
+      district = district_farming
+    }
+  }
+
+  while = {
+    count = 4
+    add_district_and_planet_size_if_needed_effect = {
+      district = district_mining
+    }
+  }
+
+  while = {
+    count = 2
+    add_district_and_planet_size_if_needed_effect = {
+      district = district_industrial
+    }
+  }
+
+  # add deposit(s)
+  add_deposit = d_vertex_natural_corru
+  add_deposit = d_vertex_natural_corru
+  add_deposit = d_vertex_natural_corru
+  add_deposit = d_rushing_waterfalls
+  add_deposit = d_tempestous_mountain
+  add_deposit = d_veiny_cliffs
+	add_deposit = d_prosperous_mesa
+	add_deposit = d_rich_mountain
+  add_deposit = d_bountiful_plains
+	add_deposit = d_fertile_lands
+
+  # add the building(s)
+  add_building = building_vertex_corru_capital
+  #add_building = building_bureaucratic_1
+  #add_building = building_research_lab_1
+  add_building = building_vertex_corru_assemblers
+}

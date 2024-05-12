@@ -1,0 +1,8 @@
+planet_buildings_vertex_corru_assemblers = {
+  parent = planet_buildings
+
+  generate_mult_modifiers = {
+		upkeep
+	}
+	modifier_category = planet
+}

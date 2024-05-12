@@ -1,0 +1,13 @@
+# utility_component_template = {
+#   key = "VERTEX_CORRU_DULL_HEART_DRIVE"
+#   component_set = "ftl_components"
+
+#   icon = "GFX_ship_part_vertex_corru_dull_heart_drive"
+#   icon_frame = 1
+
+#   size = small
+#   power = 0
+#   ftl = no
+
+#   prerequisites = { "tech_vertex_dull_hearts" }
+# }

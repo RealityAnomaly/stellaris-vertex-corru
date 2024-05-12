@@ -1,0 +1,160 @@
+﻿l_english:
+ sr_vertex_corru:0 "Corru"
+ sr_vertex_corru_desc:0 "Placeholder"
+
+ sr_vertex_sfer:0 "Sfer"
+ sr_vertex_sfer_desc:0 "Placeholder"
+
+ obeski_system_initializer_NAME:0 "Obeski System"
+ obeski_system_initializer_DESC:0 "Starts in the Obeski solar system with your home on a moon orbiting Velzie, a gas giant."
+
+ FLAG_CATEGORY_obesk:0 "Obesk"
+
+ # Advisor Events
+ advisor.1.name:9 "funfriend online"
+ advisor.1.desc_08:9 "great gaze, interloper!\n\ni am funfriend! i am supposed to help you manage stuff but i think that is actually really boring haha"
+
+ advisor.1.desc_filler:9 "You can change the tutorial level at any time in the §HSettings§! menu."
+ advisor.1.a:9 "ok §G(FULL TUTORIAL)§!"
+ advisor.1.b:9 "maybe §Y(TIPS ONLY)§!"
+ advisor.1.c:9 "no thanks §R(NO TUTORIAL)§!"
+
+ # Traits
+ trait_vertex_corrucystic_construct: "Corrucystic Construct"
+ trait_vertex_corrucystic_construct_desc: "This species is made up of living $sr_vertex_corru$."
+
+ # Civics and Origins
+ civic_vertex_corrucystic_revolution: "Corrucystic Revolution"
+ civic_vertex_corrucystic_revolution_desc: "This civilisation has developed a type of living metal called Corru, used for consutruction and computing."
+ origin_vertex_corrucystic_revolution: "$civic_vertex_corrucystic_revolution$"
+ origin_vertex_corrucystic_revolution_desc: "$civic_vertex_corrucystic_revolution_desc$"
+
+ # Buildings
+ building_vertex_sfer_vats: "Sfer Vats"
+ building_vertex_sfer_vats_desc: "Sfer Vats grow £sr_vertex_sfer£ §Y$sr_vertex_sfer$§! from £minerals£ §Y$minerals$§!."
+
+ building_vertex_corru_vats: "Corru Vats"
+ building_vertex_corru_vats_desc: "Corru Vats grow £sr_vertex_corru£ §Y$sr_vertex_corru$§! from £sr_vertex_sfer£ §Y$sr_vertex_sfer$§!."
+ planet_buildings_vertex_corru_farms: "Corru Farms"
+ mod_planet_buildings_vertex_corru_assemblers_upkeep_mult: "Corru Farms Upkeep"
+
+ building_vertex_corru_assemblers: "Corru Assemblers"
+ building_vertex_corru_assemblers_desc: "Corru Assemblers assemble Qou bodies and Golems from £sr_vertex_corru£ §Y$sr_vertex_corru$§!."
+ planet_buildings_vertex_corru_assemblers: "$building_vertex_corru_assemblers$"
+ mod_planet_buildings_vertex_corru_assemblers_upkeep_mult: "$building_vertex_corru_assemblers$ Upkeep"
+
+ building_vertex_corru_capital: "Planetary Administration"
+ building_vertex_corru_capital_desc:0 "Seat of the local ruling elite."
+
+ # Deposits
+ d_vertex_natural_corru: "Natural Corru"
+ d_vertex_natural_corru_desc: "Simple, natural corru grows here, as well as large amounts of sfer."
+
+ # Modifiers
+ SR_VERTEX_SFER_UPKEEP:0 "£sr_vertex_sfer£ Upkeep for"
+ mod_pop_category_workers_sr_vertex_sfer_upkeep_add: "$SR_VERTEX_SFER_UPKEEP$ $WORKERS$"
+ mod_pop_category_specialists_sr_vertex_sfer_upkeep_add: "$SR_VERTEX_SFER_UPKEEP$ $SPECIALISTS$"
+ mod_pop_category_rulers_sr_vertex_sfer_upkeep_add: "$SR_VERTEX_SFER_UPKEEP$ $RULERS$"
+
+ # Technology
+ tech_vertex_corrucystic_technology: "Corrucystic Technology"
+ tech_vertex_corrucystic_technology_desc: "The living substance, Corru, can be engineered into many different types of technology."
+ tech_vertex_groundsmindry: "Groundsmindry"
+ tech_vertex_groundsmindry_desc: "Corru-based technology allowing buildings to be build out of pure Corru and dynamically reconfigure themselves based on thought alone."
+ tech_vertex_dull_vessels: "Dull Vessels"
+ tech_vertex_dull_vessels_desc: "By building ships able to travel through the plane known as the Dull, we can achieve interstellar travel."
+ tech_vertex_dull_hearts: "Dull Hearts"
+ tech_vertex_dull_hearts_desc: "Harnessing energy fields from the Dull, we can build effective thrusters to power our ships."
+
+ tech_vertex_the_dull: "The Dull"
+ tech_vertex_the_dull_desc: "By studying the wormhole known as the Dull Contrivance and the mysterious plane beyond, we have learned how to exploit it for communications, weapons, and interstellar travel."
+ tech_vertex_dull_pulse_weaponry: "Dull Pulse Weaponry"
+ tech_vertex_dull_pulse_weaponry_desc: "We can harness the intrinsic energy of the Dull to build weapons of great power."
+
+ tech_vertex_corru_biology: "Corrubiology"
+ tech_vertex_corru_biology_desc: "Corru is a type of metal-based bioorganism. With corrubiology we develop an understanding of Corru and how it can be used to our benefit."
+
+ # Ship sizes
+ vertex_corru_corvette: "Corvette"
+ vertex_corru_corvette_plural: "$vertex_corru_corvette$s"
+ vertex_corru_frigate: "Frigate"
+ vertex_corru_frigate_plural: "$vertex_corru_frigate$s"
+ vertex_corru_destroyer: "Destroyer"
+ vertex_corru_destroyer_plural: "$vertex_corru_destroyer$s"
+ vertex_corru_cruiser: "Cruiser"
+ vertex_corru_cruiser_plural: "$vertex_corru_cruiser$s"
+ vertex_corru_battleship: "Battleship"
+ vertex_corru_battleship_plural: "$vertex_corru_battleship$s"
+ vertex_corru_titan: "Titan"
+ vertex_corru_titan_plural: "$vertex_corru_titan$s"
+ vertex_corru_constructor: "Construction Ship"
+ vertex_corru_constructor_plural: "$vertex_corru_constructor$s"
+ vertex_corru_colonizer: "Colony Ship"
+ vertex_corru_colonizer_plural: "$vertex_corru_colonizer$s"
+ vertex_corru_science: "Science Ship"
+ vertex_corru_science_plural: "$vertex_corru_science$s"
+ vertex_corru_transport: "Transport Ship"
+ vertex_corru_transport_plural: "$vertex_corru_transport$s"
+ vertex_corru_military_station_small: "Defense Platform"
+ vertex_corru_military_station_small_plural: "$vertex_corru_military_station_small$s"
+ vertex_corru_military_station_medium: "Defense Station"
+ vertex_corru_military_station_medium_plural: "$vertex_corru_military_station_medium$s"
+ vertex_corru_military_station_large: "Fortress"
+ vertex_corru_military_station_large_plural: "$vertex_corru_military_station_large$es"
+ vertex_corru_mining_station: "Mining Station"
+ vertex_corru_mining_station_plural: "$vertex_corru_mining_station$s"
+ vertex_corru_research_station: "Research Station"
+ vertex_corru_research_station_plural: "$vertex_corru_research_station$s"
+ vertex_corru_observation_station: "Observation Post"
+ vertex_corru_observation_station_plural: "$vertex_corru_observation_station$s"
+
+ # Components
+ VERTEX_CORRU_DULL_PULSE_BEAM: "Dull Pulse Beam"
+ VERTEX_CORRU_DULL_PULSE_BEAM_DESC: "Fires concentrated pulses of energy from the Dull, causing damage through destabilisation of matter."
+ SMALL_VERTEX_CORRU_DULL_PULSE_BEAM: "Small $VERTEX_CORRU_DULL_PULSE_BEAM$"
+ MEDIUM_VERTEX_CORRU_DULL_PULSE_BEAM: "Medium $VERTEX_CORRU_DULL_PULSE_BEAM$"
+ LARGE_VERTEX_CORRU_DULL_PULSE_BEAM: "Large $VERTEX_CORRU_DULL_PULSE_BEAM$"
+
+ VERTEX_CORRU_CYSTIC_ARMOR: "Corrucystic Armour"
+ VERTEX_CORRU_CYSTIC_ARMOR_DESC: "Made out of black corru, this armour is both self-healing and highly resistant to impacts."
+ SMALL_VERTEX_CORRU_CYSTIC_ARMOR: "Small $VERTEX_CORRU_CYSTIC_ARMOR$"
+ MEDIUM_VERTEX_CORRU_CYSTIC_ARMOR: "Medium $VERTEX_CORRU_CYSTIC_ARMOR$"
+ LARGE_VERTEX_CORRU_CYSTIC_ARMOR: "Large $VERTEX_CORRU_CYSTIC_ARMOR$"
+
+ VERTEX_CORRU_DULL_BARRIER: "Dull Barrier"
+ VERTEX_CORRU_DULL_BARRIER_DESC: "Force field technology exploiting Dull energy to counter impacts."
+ SMALL_VERTEX_CORRU_DULL_BARRIER: "Small $VERTEX_CORRU_DULL_BARRIER$"
+ MEDIUM_VERTEX_CORRU_DULL_BARRIER: "Medium $VERTEX_CORRU_DULL_BARRIER$"
+ LARGE_VERTEX_CORRU_DULL_BARRIER: "Large $VERTEX_CORRU_DULL_BARRIER$"
+
+ VERTEX_CORRU_DULL_HEART: "Dull Heart"
+ VERTEX_CORRU_DULL_HEART_DESC: "A central power generator for our ships using Dull energy."
+ VERTEX_CORRU_CORVETTE_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+ VERTEX_CORRU_DESTROYER_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+ VERTEX_CORRU_CRUISER_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+ VERTEX_CORRU_BATTLESHIP_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+ VERTEX_CORRU_TITAN_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+ VERTEX_CORRU_JUGGERNAUT_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+ VERTEX_CORRU_PLATFORM_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+ VERTEX_CORRU_STARBASE_DULL_HEART: "$VERTEX_CORRU_DULL_HEART$"
+
+ VERTEX_CORRU_DULL_HEART_THRUSTER: "Dull Heart Thruster"
+ VERTEX_CORRU_DULL_HEART_THRUSTER_DESC: "Uses Dull energy to propel the ship."
+ VERTEX_CORRU_DESTROYER_DULL_HEART_THRUSTER: "$VERTEX_CORRU_DULL_HEART_THRUSTER$"
+ VERTEX_CORRU_CRUISER_DULL_HEART_THRUSTER: "$VERTEX_CORRU_DULL_HEART_THRUSTER$"
+ VERTEX_CORRU_BATTLESHIP_DULL_HEART_THRUSTER: "$VERTEX_CORRU_DULL_HEART_THRUSTER$"
+ VERTEX_CORRU_TITAN_DULL_HEART_THRUSTER: "$VERTEX_CORRU_DULL_HEART_THRUSTER$"
+ VERTEX_CORRU_COLOSSUS_DULL_HEART_THRUSTER: "$VERTEX_CORRU_DULL_HEART_THRUSTER$"
+
+ VERTEX_CORRU_COMPUTER_GOLEM: "Glazika"
+ VERTEX_CORRU_COMPUTER_GOLEM_DESC: "A Corru golem which is capable of expertly piloting ships."
+ VERTEX_CORRU_COMPUTER_GOLEM_SWARM_GOLEM: "$VERTEX_CORRU_COMPUTER_GOLEM$ (Swarm)"
+ VERTEX_CORRU_COMPUTER_GOLEM_TORPEDO_GOLEM: "$VERTEX_CORRU_COMPUTER_GOLEM$ (Torpedo)"
+ VERTEX_CORRU_COMPUTER_GOLEM_PICKET_GOLEM: "$VERTEX_CORRU_COMPUTER_GOLEM$ (Picket)"
+ VERTEX_CORRU_COMPUTER_GOLEM_LINE_GOLEM: "$VERTEX_CORRU_COMPUTER_GOLEM$ (Line)"
+ VERTEX_CORRU_COMPUTER_GOLEM_ARTILLERY_GOLEM: "$VERTEX_CORRU_COMPUTER_GOLEM$ (Artillery)"
+ VERTEX_CORRU_COMPUTER_GOLEM_CARRIER_GOLEM: "Carrier $VERTEX_CORRU_COMPUTER_GOLEM$"
+ VERTEX_CORRU_COMPUTER_GOLEM_PLATFORM_GOLEM: "Platform $VERTEX_CORRU_COMPUTER_GOLEM$"
+ VERTEX_CORRU_COMPUTER_GOLEM_STARBASE_GOLEM: "Starbase $VERTEX_CORRU_COMPUTER_GOLEM$"
+ VERTEX_CORRU_COMPUTER_GOLEM_COLOSSUS_GOLEM: "Colossus $VERTEX_CORRU_COMPUTER_GOLEM$"
+ VERTEX_CORRU_COMPUTER_GOLEM_STELLARITE_GOLEM: "Stellarite $VERTEX_CORRU_COMPUTER_GOLEM$"

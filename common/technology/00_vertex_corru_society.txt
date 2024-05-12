@@ -1,0 +1,15 @@
+# corru biology
+tech_vertex_corru_biology = {
+  area = society
+  tier = 0
+  category = { biology }
+  start_tech = yes
+
+  potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+
+  starting_potential = {
+    has_origin = origin_vertex_corrucystic_revolution
+  }
+}

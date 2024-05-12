@@ -1,0 +1,9 @@
+CORRUCYSTIC = {
+	obesk = {
+		name = SPEC_Obesk
+		plural = SPEC_Obesk_pl
+		home_planet = SPEC_Obesk_planet
+		home_system = SPEC_Obesk_system
+		name_list = "OBESK"
+	}
+}

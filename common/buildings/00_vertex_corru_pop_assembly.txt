@@ -1,0 +1,104 @@
+# add corru natural deposits
+# building_vertex_sfer_vats = {
+#   base_buildtime = @b1_time
+
+#   base_cap_amount = 1
+
+#   potential = {
+# 		exists = owner
+# 		owner = { has_origin = origin_vertex_corrucystic_revolution }
+# 	}
+
+# 	destroy_trigger = {
+# 		exists = owner
+#     NOT = { owner = { has_origin = origin_vertex_corrucystic_revolution } }
+# 	}
+
+#   resources = {
+#     category = planet_buildings_vertex_corru_farms
+
+#     cost = {
+#       corru = 250
+#     }
+
+#     upkeep = {
+#       sfer = 2
+#     }
+#   }
+# }
+
+# building_vertex_corru_vats = {
+#   base_buildtime = @b1_time
+
+#   base_cap_amount = 1
+
+#   potential = {
+# 		exists = owner
+# 		owner = { has_origin = origin_vertex_corrucystic_revolution }
+# 	}
+
+# 	destroy_trigger = {
+# 		exists = owner
+#     NOT = { owner = { has_origin = origin_vertex_corrucystic_revolution } }
+# 	}
+
+#   resources = {
+#     category = planet_buildings_vertex_corru_farms
+
+#     cost = {
+#       corru = 250
+#     }
+
+#     upkeep = {
+#       sfer = 2
+#     }
+#   }
+# }
+
+building_vertex_corru_assemblers = {
+	base_buildtime = @b1_vertex_corru_time
+
+	category = pop_assembly
+
+	base_cap_amount = 1
+
+	potential = {
+		exists = owner
+		owner = { has_origin = origin_vertex_corrucystic_revolution }
+		#uses_district_set = corru_world
+	}
+
+	destroy_trigger = {
+		exists = owner
+    NOT = { owner = { has_origin = origin_vertex_corrucystic_revolution } }
+	}
+
+	planet_modifier = {
+		planet_pop_assembly_organic_add = 3
+	}
+
+	resources = {
+		category = planet_buildings_vertex_corru_assemblers
+
+    cost = {
+      sr_vertex_corru = @b1_vertex_corru_cost
+    }
+
+    upkeep = {
+      sr_vertex_sfer = @b1_vertex_corru_upkeep
+    }
+	}
+
+	triggered_desc = {
+		trigger = {
+			OR = {
+				has_building = building_robot_assembly_plant
+				AND = {
+					exists = assembling_species
+					assembling_species = { is_robotic_species = yes }
+				}
+			}
+		}
+		text = tooltip_organic_and_artificial_assembly_warning
+	}
+}
